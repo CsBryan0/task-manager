@@ -1,5 +1,5 @@
 
-# Projeto de Exemplo - Task Manager
+# Task Manager
 
 Este é um projeto de exemplo do Task Manager, uma aplicação simples para gerenciar tarefas. O projeto usa as tecnologias Java, Spring Boot, Spring Data JPA, Spring Web, H2 Database, SpringFox para documentação da API, Springdoc OpenAPI e Maven como sistema de gerenciamento de dependências.
 
