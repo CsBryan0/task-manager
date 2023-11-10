@@ -27,7 +27,10 @@ public class TasksService {
 		if (existingTask.isPresent()) {
 			Task updateTask = existingTask.get();
 			updateTask.setTitle(task.getTitle());
-
+			updateTask.setDescription(task.getDescription());
+			updateTask.setStatus(task.getStatus());
+			
+			
 			return taskRepository.save(updateTask);
 		}
 
