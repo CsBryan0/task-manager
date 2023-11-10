@@ -10,6 +10,8 @@ Para executar este projeto localmente, você precisará das seguintes ferramenta
 - Java Development Kit (JDK) - versão 8 ou superior
 - Maven - Sistema de gerenciamento de dependências
 - Um ambiente de desenvolvimento integrado (IDE) como o IntelliJ IDEA ou Eclipse (opcional, mas altamente recomendado)
+- Spring Boot
+- JUnit 5
 
 ## Instruções para Execução Local
 
@@ -33,7 +35,14 @@ Siga as etapas abaixo para executar o projeto em sua máquina:
 	  mvn spring-boot:run
 	```
 
-Após a conclusão bem-sucedida, o aplicativo estará disponível em http://localhost:8080. Você pode acessar a documentação da API Swagger em http://localhost:8080/swagger-ui.html.
+Após a conclusão bem-sucedida, o aplicativo estará disponível em http://localhost:8080. Você pode acessar a documentação da API Swagger em http://localhost:8080/taskPath/swagger-ui.html.
+
+## Endpoints Disponíveis:
+- GET /tasks: Recupera todas as tarefas.
+- GET /tasks/{id}: Recupera uma tarefa específica pelo ID.
+- POST /tasks: Cria uma nova tarefa.
+- PUT /tasks/{id}: Atualiza uma tarefa existente.
+- DELETE /tasks/{id}: Remove uma tarefa existente.
 
 Use uma ferramenta como cURL, Postman ou qualquer cliente HTTP para fazer solicitações à API do Task Manager. Consulte a documentação da API para obter informações sobre os pontos de extremidade disponíveis.
 
