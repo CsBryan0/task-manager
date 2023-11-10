@@ -22,7 +22,7 @@ Siga as etapas abaixo para executar o projeto em sua máquina:
 2. Clone este repositório em seu computador:
 
    ```bash
-   git clone https://github.com/CsBryan0/tasks.git
+   git clone https://github.com/CsBryan0/task-manager.git
 
 3. Navegue até o diretório raiz do projeto:
 
